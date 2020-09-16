@@ -21,10 +21,10 @@ window.convertToHex = function(str) {
 window.BERKELEY_NFT_CONTRACT_ADDRESS = "0x8d70ad6953de1e42" // Testnet
 
 fcl.config()
-    .put("accessNode.api", "http://localhost:8080")
-    .put("challenge.handshake", "http://localhost:8701/flow/authenticate");
-    // .put("accessNode.api", "https://access-testnet.onflow.org")
-    // .put("challenge.handshake", "https://flow-wallet-staging.blocto.app/authn");
+    // .put("accessNode.api", "http://localhost:8080")
+    // .put("challenge.handshake", "http://localhost:8701/flow/authenticate");
+    .put("accessNode.api", "https://access-testnet.onflow.org")
+    .put("challenge.handshake", "https://flow-wallet-testnet.blocto.app/authn");
 
 const AppContainer = () => {
     const [loggedIn, setLoggedIn] = useState(false)

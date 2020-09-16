@@ -23,8 +23,8 @@
     "sass": "^1.26.10"
   },
   "dependencies": {
-    "@onflow/fcl": "0.0.46",
-    "@onflow/types": "0.0.3",
+    "@onflow/fcl": "^0.0.54",
+    "@onflow/types": "^0.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "regenerator-runtime": "^0.13.7"
